@@ -1,0 +1,53 @@
+[
+    {
+      "username": "User1",
+      "commentText": "Great post! I really enjoyed reading it.",
+      "blogPostId": 1
+    },
+    {
+      "username": "User2",
+      "commentText": "Thanks for sharing this insightful information.",
+      "blogPostId": 2
+    },
+    {
+      "username": "User3",
+      "commentText": "I completely agree with your points. Well written!",
+      "blogPostId": 3
+    },
+    {
+      "username": "User4",
+      "commentText": "This post gave me a new perspective. Thank you!",
+      "blogPostId": 4
+    },
+    {
+      "username": "User5",
+      "commentText": "I have some additional thoughts on this topic. Let's discuss!",
+      "blogPostId": 5
+    },
+    {
+      "username": "User6",
+      "commentText": "I found this post very informative. Good job!",
+      "blogPostId": 1
+    },
+    {
+      "username": "User7",
+      "commentText": "This is an excellent piece. Keep up the good work!",
+      "blogPostId": 2
+    },
+    {
+      "username": "User8",
+      "commentText": "I have been looking for information like this. Thanks a lot!",
+      "blogPostId": 3
+    },
+    {
+      "username": "User9",
+      "commentText": "I appreciate your insights. Well done!",
+      "blogPostId": 4
+    },
+    {
+      "username": "User10",
+      "commentText": "This post is thought-provoking. It made me reflect on the topic.",
+      "blogPostId": 5
+    }
+  ]
+  

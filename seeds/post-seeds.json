@@ -1,0 +1,23 @@
+[
+    {
+      "username": "JohnDoe",
+      "postText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dolor mauris. Cras feugiat libero ac ex posuere, sed rutrum quam venenatis. Sed vestibulum, neque vitae maximus ultrices, est dui placerat risus, non vestibulum turpis urna a odio."
+    },
+    {
+      "username": "JaneSmith",
+      "postText": "Vestibulum consequat nunc odio, a commodo nulla laoreet sit amet. Fusce faucibus pellentesque felis at volutpat. Curabitur dapibus, felis vitae egestas dictum, sapien felis ultrices diam, ac aliquet tortor erat id neque."
+    },
+    {
+      "username": "EmilyJohnson",
+      "postText": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus ut enim vel ante condimentum luctus id eget tellus. Nullam in nisl eros."
+    },
+    {
+      "username": "MichaelWilson",
+      "postText": "Aenean pellentesque volutpat lacus, at faucibus elit eleifend ac. Curabitur consequat erat a turpis rhoncus, in lobortis dui maximus. Sed posuere congue ultricies."
+    },
+    {
+      "username": "SarahBrown",
+      "postText": "Vestibulum rhoncus arcu libero, et ultricies lectus facilisis a. Sed et mi metus. Integer eu metus malesuada, cursus ligula id, consectetur tellus."
+    }
+  ]
+  
