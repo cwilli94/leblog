@@ -1,7 +1,5 @@
-//comment model
-const { Model, DataTypes } = require("sequelize");
-const sequelize = require("../config/connection");
-const BlogPost = require("/post-model");
+const { Model, DataTypes } = require('sequelize');
+const sequelize = require('../config/connection');
 
 class Comment extends Model {}
 
@@ -25,19 +23,17 @@ Comment.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: "BlogPost",
-        key: "id",
+        model: 'BlogPost',
+        key: 'id',
       },
     },
   },
   {
     sequelize,
+    modelName: 'Comment',
     freezeTableName: true,
     underscored: true,
-    modelName: "Comment",
   }
 );
-
-Comment.belongsTo(BlogPost, { foreignKey: 'blogPostId' });
 
 module.exports = Comment;

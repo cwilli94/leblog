@@ -1,6 +1,6 @@
-//blog post model
-const { Model, DataTypes } = require("sequelize");
-const sequelize = require("../config/connection");
+const { Model, DataTypes } = require('sequelize');
+const sequelize = require('../config/connection');
+const Comment = require('./comment-model');
 
 class BlogPost extends Model {}
 
@@ -20,13 +20,23 @@ BlogPost.init(
       type: DataTypes.TEXT,
       allowNull: false,
     },
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
+    },
   },
   {
     sequelize,
+    modelName: 'BlogPost',
     freezeTableName: true,
     underscored: true,
-    modelName: "BlogPost",
   }
 );
+
+// Set up associations
+BlogPost.hasMany(Comment, {
+  foreignKey: 'blogPostId',
+  onDelete: 'CASCADE',
+});
 
 module.exports = BlogPost;

@@ -1,0 +1,17 @@
+<div class="content">
+  {{#each posts}}
+    <div class="post">
+      <h2>{{title}}</h2>
+      <p>{{content}}</p>
+      <p>Posted on {{createdAt}}</p>
+      <h3>Comments</h3>
+      <ul>
+        {{#each comments}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  {{else}}
+    <p>No posts available.</p>
+  {{/each}}
+</div>
